@@ -1,0 +1,77 @@
+[
+  {
+    "doctype": "Custom Field",
+    "dt": "Sales Order",
+    "fieldname": "custom_get_item_code",
+    "fieldtype": "Button",
+    "insert_after": "scan_barcode",
+    "label": "批量获取物料",
+    "modified": "2023-10-31 11:20:51.395109",
+    "name": "Sales Order-custom_get_item_code"
+  },
+
+  {
+    "doctype": "Custom Field",
+    "dt": "Pick List",
+    "fieldname": "fetch_item_locations",
+    "fieldtype": "Check",
+    "insert_after": "column_break_4",
+    "no_copy": 1,
+    "print_hide": 1,
+    "label": "Auto Assign Item Location",
+    "description": "If ticked, auto assign item location per available qty",
+    "modified": "2023-04-26 21:17:17.599434",
+    "name": "Pick List-fetch_item_locations"
+  },
+  {
+    "doctype": "Custom Field",
+    "dt": "Pick List Item",
+    "fieldname": "custom_actual_qty",
+    "fieldtype": "Float",
+    "insert_after": "qty",
+    "label": "Actual Qty",
+    "modified": "2023-10-26 17:23:03.204191",
+    "name": "Pick List Item-custom_actual_qty"
+  },
+
+  {
+    "doctype": "Custom Field",
+    "dt": "Item",
+    "fieldname": "custom_over_receipt_allowqty",
+    "fieldtype": "Float",
+    "insert_after": "over_delivery_receipt_allowance",
+    "label": "允许超收数量(优先)",
+    "modified": "2023-11-04 13:07:09.768077",
+    "name": "Item-custom_over_receipt_allowqty"
+  },
+  {
+    "doctype": "Custom Field",
+    "dt": "Item",
+    "fieldname": "custom_specs",
+    "fieldtype": "Data",
+    "insert_after": "item_name",
+    "label": "规格",
+    "modified": "2023-09-22 17:23:03.204191",
+    "name": "Item-custom_specs"
+  },
+  {
+    "doctype": "Custom Field",
+    "dt": "Item",
+    "fieldname": "custom_material",
+    "fieldtype": "Data",
+    "insert_after": "custom_specs",
+    "label": "材质",
+    "modified": "2023-09-22 17:27:46.126408",
+    "name": "Item-custom_material"
+  },
+  {
+    "doctype": "Custom Field",
+    "dt": "Item",
+    "fieldname": "custom_surface",
+    "fieldtype": "Data",
+    "insert_after": "custom_material",
+    "label": "表面属性",
+    "modified": "2023-09-22 17:32:04.634668",
+    "name": "Item-custom_surface"
+  }
+]

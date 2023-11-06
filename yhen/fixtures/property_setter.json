@@ -1,0 +1,260 @@
+[
+  {
+    "doctype": "Property Setter",
+    "doc_type": "Warehouse",
+    "doctype_or_field": "DocType",
+    "modified": "2023-10-31 15:39:16.200965",
+    "name": "Warehouse-main-default_view",
+    "property": "default_view",
+    "property_type": "Select",
+    "value": "Report"
+  },
+
+  {
+    "doctype": "Property Setter",
+    "doc_type": "Document Naming Rule",
+    "doctype_or_field": "DocType",
+    "modified": "2023-11-05 21:22:42.974438",
+    "name": "Document Naming Rule-main-quick_entry",
+    "property": "quick_entry",
+    "property_type": "Check",
+    "value": "0"
+  },
+
+  {
+    "doctype": "Property Setter",
+    "doc_type": "Customer",
+    "doctype_or_field": "DocType",
+    "modified": "2023-10-13 15:39:16.200965",
+    "name": "Customer-main-in_preview",
+    "property": "in_preview",
+    "property_type": "Check",
+    "value": 1
+  },
+
+  {
+    "doctype": "Property Setter",
+    "doc_type": "Supplier",
+    "doctype_or_field": "DocType",
+    "modified": "2023-10-13 15:39:16.200965",
+    "name": "Supplier-main-show_title_field_in_link",
+    "property": "show_title_field_in_link",
+    "property_type": "Check",
+    "value": 1
+  },
+  {
+    "doctype": "Property Setter",
+    "doc_type": "Supplier",
+    "doctype_or_field": "DocType",
+    "modified": "2023-10-13 15:39:16.200965",
+    "name": "Supplier-main-in_preview",
+    "property": "in_preview",
+    "property_type": "Check",
+    "value": 1
+  },
+
+  {
+    "doctype": "Property Setter",
+    "doc_type": "Sales Taxes and Charges",
+    "doctype_or_field": "DocField",
+    "field_name": "included_in_print_rate",
+    "modified": "2023-10-27 00:13:49.722417",
+    "name": "Sales Taxes and Charges-included_in_print_rate-default",
+    "property": "default",
+    "property_type": "Text",
+    "value": "1"
+  },
+
+  {
+    "doctype": "Property Setter",
+    "doc_type": "Purchase Taxes and Charges",
+    "doctype_or_field": "DocField",
+    "field_name": "included_in_print_rate",
+    "modified": "2023-10-27 00:13:49.722417",
+    "name": "Purchase Taxes and Charges-included_in_print_rate-default",
+    "property": "default",
+    "property_type": "Text",
+    "value": "1"
+  },
+
+  {
+    "doctype": "Property Setter",
+    "doc_type": "Sales Order Item",
+    "doctype_or_field": "DocField",
+    "field_name": "customer_item_code",
+    "modified": "2023-10-13 14:10:59.267156",
+    "name": "Sales Order Item-customer_item_code-hidden",
+    "property": "hidden",
+    "property_type": "Check",
+    "value": "0"
+  },
+
+  {
+    "doctype": "Property Setter",
+    "doc_type": "Purchase Order",
+    "doctype_or_field": "DocType",
+    "modified": "2023-10-13 15:39:16.200965",
+    "name": "Purchase Order-main-default_view",
+    "property": "default_view",
+    "property_type": "Select",
+    "value": "Report"
+  },
+
+  {
+    "doctype": "Property Setter",
+    "doc_type": "Stock Reconciliation",
+    "doctype_or_field": "DocType",
+    "modified": "2023-10-13 15:39:16.200964",
+    "name": "Stock Reconciliation-main-default_view",
+    "property": "default_view",
+    "property_type": "Select",
+    "value": "Report"
+  },
+
+  {
+    "doctype": "Property Setter",
+    "doc_type": "Data Import",
+    "doctype_or_field": "DocField",
+    "field_name": "import_type",
+    "modified": "2023-10-03 10:00:45.000000",
+    "name": "Data Import-import_type-default",
+    "property": "default",
+    "value": "Insert New Records"
+  },
+
+  {
+    "doctype": "Property Setter",
+    "doc_type": "Item",
+    "doctype_or_field": "DocType",
+    "modified": "2023-09-22 17:23:55.030432",
+    "name": "Item-main-quick_entry",
+    "property": "quick_entry",
+    "property_type": "Check",
+    "value": "0"
+  },
+  {
+    "doctype": "Property Setter",
+    "doc_type": "Item",
+    "doctype_or_field": "DocField",
+    "field_name": "standard_rate",
+    "modified": "2023-09-19 17:00:00.000000",
+    "name": "Item-standard_rate_hidden_fieldtype",
+    "property": "hidden",
+    "value": 1
+  },
+  {
+    "doctype": "Property Setter",
+    "doc_type": "Item",
+    "doctype_or_field": "DocField",
+    "field_name": "item_code",
+    "modified": "2023-09-19 17:00:00.000000",
+    "name": "Item-item_code-in_list_fieldtype",
+    "property": "in_list_view",
+    "value": 0
+  },
+
+  {
+    "doctype": "Property Setter",
+    "doc_type": "Production Plan",
+    "doctype_or_field": "DocField",
+    "field_name": "skip_available_assembly_item",
+    "modified": "2023-10-13 16:45:53.484655",
+    "name": "Production Plan-skip_available_assembly_item-default",
+    "property": "default",
+    "property_type": "Text",
+    "value": "1"
+  },
+  {
+    "doctype": "Property Setter",
+    "doc_type": "Production Plan",
+    "doctype_or_field": "DocField",
+    "field_name": "skip_available_sub_assembly_item",
+    "modified": "2023-10-13 16:45:53.484656",
+    "name": "Production Plan-skip_available_sub_assembly_item-default",
+    "property": "default",
+    "property_type": "Text",
+    "value": "1"
+  },
+  {
+    "doctype": "Property Setter",
+    "doc_type": "Production Plan",
+    "doctype_or_field": "DocField",
+    "field_name": "include_safety_stock",
+    "modified": "2023-10-13 16:45:53.000000",
+    "name": "Production Plan-include_safety_stock-default",
+    "property": "default",
+    "property_type": "Text",
+    "value": "1"
+  },
+  {
+    "doctype": "Property Setter",
+    "doc_type": "Production Plan",
+    "doctype_or_field": "DocField",
+    "field_name": "get_items_from",
+    "modified": "2023-09-19 17:00:00.000000",
+    "name": "Production Plan-get_items_from_default_fieldtype",
+    "property": "default",
+    "value": "Sales Order"
+  },
+  {
+    "doctype": "Property Setter",
+    "doc_type": "Production Plan",
+    "doctype_or_field": "DocField",
+    "field_name": "get_items_from",
+    "modified": "2023-09-19 17:00:00.000000",
+    "name": "Production Plan-get_items_from read_only_fieldtype",
+    "property": "read_only",
+    "value": 1
+  },
+
+  {
+    "doctype": "Property Setter",
+    "doc_type": "Pick List",
+    "doctype_or_field": "DocField",
+    "field_name": "parent_warehouse",
+    "modified": "2023-04-26 19:42:46.943779",
+    "name": "Pick List-parent_warehouse_depends_on",
+    "property": "depends_on",
+    "value": "eval:doc.fetch_item_locations === 1"
+  },
+  {
+    "doctype": "Property Setter",
+    "doc_type": "Pick List",
+    "doctype_or_field": "DocField",
+    "field_name": "get_item_locations",
+    "modified": "2023-04-26 19:42:46.943779",
+    "name": "Pick List-get_item_locations_depends_on",
+    "property": "depends_on",
+    "value": "eval:doc.fetch_item_locations === 1"
+  },
+  {
+    "doctype": "Property Setter",
+    "doc_type": "Pick List",
+    "doctype_or_field": "DocField",
+    "field_name": "purpose",
+    "modified": "2023-10-07 20:46:38.928145",
+    "name": "Pick List-purpose-default",
+    "property": "default",
+    "property_type": "Text",
+    "value": "Delivery"
+  },
+
+  {
+    "doctype": "Property Setter",
+    "doc_type": "Contact",
+    "doctype_or_field": "DocType",
+    "modified": "2023-10-06 20:46:38.999283",
+    "name": "Contact-main-autoname",
+    "property": "autoname",
+    "value": "prompt"
+  },
+  {
+    "doctype": "Property Setter",
+    "doc_type": "Contact",
+    "doctype_or_field": "DocType",
+    "modified": "2023-10-06 20:46:38.928144",
+    "name": "Contact-main-naming_rule",
+    "property": "naming_rule",
+    "value": "Set by user"
+  }
+]

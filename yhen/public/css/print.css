@@ -1,0 +1,41 @@
+/* TODO 前面是否还要加 .erpnext-print */
+.print-format h1 {
+    text-align: center;
+}
+.print-format h2 {
+    text-align: center;
+}
+
+.print-format table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.print-format img {
+  z-index: 9;
+  position: absolute;
+}
+
+/* 表格边框 */
+.print-format tr,
+.print-format th,
+.print-format td {
+    border: 1px solid black;
+    text-align: center;
+    line-height: 20px;
+    font-size: 10px;
+    padding: 5px !important;
+}
+
+.print-format th {
+    font-weight: bold;
+}
+
+/* 无边框格式 */
+.print-format table.noborder,
+.print-format table.noborder tr,
+.print-format table.noborder td {
+    padding: 0px !important;
+    border: 0px;
+    text-align: left;
+}
